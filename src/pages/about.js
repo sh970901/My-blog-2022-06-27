@@ -1,15 +1,14 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
-const About = () => {
+function AboutPage() {
   return (
-    <main>
-      <Layout pageTitle="About Me">
-      <h1>About</h1>
-      </Layout>
-      
-    </main>
+    <Layout pageTitle="About Me">
+      <p>
+        안녕하세요. 이승훈입니다.
+      </p>
+    </Layout>
   );
-};
+}
 
-export default About;
+export default AboutPage;

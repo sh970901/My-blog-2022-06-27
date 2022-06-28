@@ -1,20 +1,16 @@
 import { StaticImage } from "gatsby-plugin-image";
-import * as React from "react";
-import Layout from "../components/Layout";
+import React from "react";
+import Layout from "../components/layout";
 
-// markup
 const IndexPage = () => {
   return (
-    <>
-      <Layout pageTitle="HomePage">
-      <h1>Home Page</h1>
-      <StaticImage
-        alt=""
-        src="../images/dog.jpg"
-      ></StaticImage>
-      </Layout>
-      
-    </>
+    <Layout pageTitle="Home Page">
+      <p>The king will be made...</p>
+      {/* <StaticImage
+        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        src="../images/icon.jpg"
+      /> */}
+    </Layout>
   );
 };
 
